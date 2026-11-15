@@ -329,7 +329,7 @@
 
     <div class="container">
         <header class="video-header">
-            <a href="https://www.keralacaptain.shop" class="header-btn" aria-label="Go to Home">
+            <a href="https://www.keralacaptain.site" class="header-btn" aria-label="Go to Home">
                 <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
             </a>
             <h1 id="video-title">Loading...</h1>
@@ -855,7 +855,7 @@
                 }
 
                 // ── Step 4: Fetch video metadata from WP API ─────────────────
-                var apiUrl = 'https://www.keralacaptain.shop/wp-json/keralacaptain/v1/get_player_data?post_id=' + postId;
+                var apiUrl = 'https://www.keralacaptain.site/wp-json/keralacaptain/v1/get_player_data?post_id=' + postId;
                 if (season && episode) apiUrl += '&season=' + season + '&episode=' + episode;
 
                 var response = await fetch(apiUrl);
